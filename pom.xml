@@ -32,7 +32,12 @@
 	</properties>
 
 	<dependencies>
-		
+		<dependency>
+		  <groupId>org.apache.maven.surefire</groupId>
+		  <artifactId>surefire</artifactId>
+		  <version>3.0.0</version>
+		  <type>pom</type>
+		</dependency>
 		<dependency>
 			<groupId>org.apache.axis2</groupId>
 			<artifactId>axis2-adb</artifactId>
@@ -69,6 +74,7 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
+	
 	<build>
 		<plugins>
 
